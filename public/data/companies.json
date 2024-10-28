@@ -1,0 +1,31 @@
+[
+    {
+      "companyName": "FinTechSecure Ltd.",
+      "ZeroTrustScore": 58.5,
+      "metrics": {
+        "ShannonEntropyScore": 7.8,
+        "firewallDetected": true,
+        "DNSsecEnabled": true,
+        "tlsVersion": "1.2",
+        "certificateBitStrength": 2048,
+        "securityHeadersImplemented": ["X-XSS-Protection", "X-Frame-Options"],
+        "openPortsDetected": 12
+      },
+      "riskCategory": "Moderate Risk"
+    },
+    {
+      "companyName": "CyberSafe Corp.",
+      "ZeroTrustScore": 75.3,
+      "metrics": {
+        "ShannonEntropyScore": 9.1,
+        "firewallDetected": false,
+        "DNSsecEnabled": true,
+        "tlsVersion": "1.3",
+        "certificateBitStrength": 4096,
+        "securityHeadersImplemented": ["X-Content-Type-Options"],
+        "openPortsDetected": 5
+      },
+      "riskCategory": "Low Risk"
+    }
+  ]
+  
